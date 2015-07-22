@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/systemActivity_btn_backupToSDCard"
+        style="@style/textStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="2dp"
+        android:background="@drawable/systemactivity_buttonselector_color"
+        android:text="@string/system_btn_backupToSDCard" />
+
+    <Button
+        android:id="@+id/systemActivity_btn_restoreFromSDCard"
+        style="@style/textStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="2dp"
+        android:background="@drawable/systemactivity_buttonselector_color"
+        android:text="@string/system_btn_restoreFromSDCard" />
+
+</LinearLayout>

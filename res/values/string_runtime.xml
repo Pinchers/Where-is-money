@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="general_dialog_ok">确定</string>
+    <string name="general_dialog_cancel">取消</string>
+    <string name="general_dialog_warning">警告</string>
+    
+    <string name="mainActivity_exitDialog_title">亲~~</string>
+    <string name="mainActivity_exitDialog_message">真的要离开我么<![CDATA[o(>﹏<)o~~]]></string>
+    <string name="mainActivity_exitDialog_btnOk">狠心拒绝</string>
+    <string name="mainActivity_exitDialog_btnCancel">多待一会</string>
+    
+    
+    <string name="addActivity_diapalyPersonDataDialog_title">选择参与人员</string>
+    <string name="addActivity_personNoDataDialog_title">没有记录</string>
+    <string name="addActivity_personNoDataDialog_message">点击“新建”添加记录..</string>
+    <string name="addActivity_personNoDataDialog_new">新建</string>
+    <string name="addActivity_selectDateDialog_title">选择日期</string>
+    <string name="addActivity_toast_saveFail">* 所示内容不能为空!</string>
+    <string name="addActivity_toast_saveSuccess">信息保存成功!</string>
+    
+    <string name="barChartFragment_string_title">收支对比</string>
+    
+    <string name="billManageActivity_addDialog_title">没有数据</string>
+    <string name="billManageActivity_addDialog_message">现在添加第一条记录？</string>
+    <string name="billManageActivity_toast_deleteSuccess">删除成功!</string>
+    <string name="billManageActivity_toast_deleteFail">删除失败!</string>
+    <string name="billManageActivity_deleteAlertDialog_message">确认删除此记录？</string>
+    
+    <string name="cameraActivity_toast_click">点击拍照获取图像!</string>
+    
+    
+    <string name="personManageActivity_selectAddModeDialog_title">选择添加方式</string>
+    <string name="personManageActivity_addContactsDialog_title">选择要添加的联系人</string>
+    <string name="personManageActivity_addNewPersonDialog_title">新建联系人</string>
+    <string name="personManageActivity_addNewPersonDialog_message">姓名</string>
+    <string name="personManageActivity_addNewPersonDialog_textHint">请输入姓名..</string>
+    <string name="personManageActivity_toast_saveSuccess">添加成功!</string>
+    <string name="personManageActivity_toast_saveFail">添加失败!未选择联系人或此名称已存在!</string>
+    <string name="personManageActivity_toast_saveFailExist">添加失败，此名称已存在！</string>
+    <string name="personManageActivity_toast_saveFailNull">添加失败，姓名不能为空!</string>
+    
+    <string name="statisticsManageActivity_toast_dateFormat">日期格式非法!!!\n
+        													  起始日期必须小于终止日期，\n
+        													  或者跟终止日期是同一天。
+        														</string>
+    
+    <string name="systemActivity_backupAndRestoreDialog_title">备份与还原</string>
+    <string name="systemActivity_notFindSDCardDialog_title">未检测到SD卡!!</string>
+    <string name="systemActivity_backupProgressDialog_title">正在备份,请稍后...</string>
+    <string name="systemActivity_restoreProgressDialog_title">正在还原,请稍后...</string>
+    <string name="systemActivity_helpInfoDialog_title">帮助信息</string>
+    <string name="systemActivity_aboutAPPDialog_title">关于软件</string>
+    <string name="systemActivity_feedbackDialog_title">意见反馈</string>
+    <string name="systemActivity_toast_backupSuccess">数据库备份成功!!</string>
+    <string name="systemActivity_toast_restoreSuccess">数据库还原成功!!</string>
+    <string name="systemActivity_toast_exception">操作异常终止!!</string>
+    <string name="systemActivity_toast_notFindBackup">未找到数据库备份文件!!</string>
+    <string name="systemActivity_toast_unknownError">未知错误!!</string>
+    <string name="systemActivity_email_title">意见反馈</string>
+    
+    
+    <string name="systemActivity_helpInfoDialog_text">
+        1.如何添加一条新纪录?\n
+              单击“添加账单”按钮->输入相应信息->单击“保存”按钮。\n
+        2.如何查看已经存在的账单?\n
+              单击“账单管理”按钮->进入账单管理页面->选择顶部的“查询方式”跟“限定条件”->系统将根据您的选择，显示实时查询内容。\n
+        3.如何删除自己的账单?\n
+              单击“账单管理”按钮->进入账单管理页面->长按要删除的账单，系统将弹出删除确认对话框。\n
+        4.如何删除不需要的人员名单?\n
+              单击“人员管理”按钮->进入人员管理页面->长按要删除的人员名单，系统将弹出删除确认对话框。\n
+        5.备份完成的数据库存放在什么位置？\n
+               备份完成的数据库将存放在SD卡的myAppBackup目录下。\n
+         
+        
+              </string>
+    
+</resources>

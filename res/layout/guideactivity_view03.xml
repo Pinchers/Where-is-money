@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/guideactivity_image03"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/guideActivity_btn_enter"
+        style="@style/textStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/margin_size_default"
+        android:background="@drawable/statisticsmanageactivity_buttonselector_color"
+        android:text="@string/guide_btn_enter" />
+
+</RelativeLayout>

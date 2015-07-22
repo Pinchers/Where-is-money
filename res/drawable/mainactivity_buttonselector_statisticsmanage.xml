@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable="@drawable/mainactivity_button_statisticsmanage_active" android:state_pressed="true"></item>
+    <item android:drawable="@drawable/mainactivity_button_statisticsmanage_active" android:state_focused="true"></item>
+    <item android:drawable="@drawable/mainactivity_button_statisticsmanage_normal"></item>
+
+</selector>

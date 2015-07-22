@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/aliceblue" >
+
+    <LinearLayout
+        android:id="@+id/statisticsManageActivity_ll_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/statisticsManage_activity"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/statisticsManageActivity_ib_back"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="@dimen/margin_size_minimal"
+            android:background="@drawable/statisticsmanageactivity_buttonselector_back" />
+
+        <TextView
+            android:id="@+id/statistics_tv_title"
+            style="@style/textStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginBottom="@dimen/margin_size_minimal"
+            android:text="@string/statisticsManage_tv_title"
+            android:textSize="@dimen/font_size_medium" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/statisticsManage_tv_startDateTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/statisticsManage_tv_startDate"
+            android:textSize="@dimen/font_size_default" />
+
+        <TextView
+            android:id="@+id/statisticsManage_et_startDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:drawable/editbox_background"
+            android:layout_alignBottom="@+id/statisticsManage_tv_startDateTitle"
+            android:hint="@string/statisticsManage_et_selectDate"
+            android:textSize="@dimen/font_size_default" />
+
+        <TextView
+            android:id="@+id/statisticsManage_tv_endtDateTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignRight="@+id/statisticsManage_tv_startDateTitle"
+            android:layout_below="@+id/statisticsManage_tv_startDateTitle"
+            android:layout_marginTop="@dimen/margin_size_large"
+            android:text="@string/statisticsManage_tv_endtDate"
+            android:textSize="@dimen/font_size_default" />
+
+        <TextView
+            android:id="@+id/statisticsManage_et_endDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/statisticsManage_tv_endtDateTitle"
+            android:layout_alignBottom="@+id/statisticsManage_tv_endtDateTitle"
+            android:layout_alignLeft="@+id/statisticsManage_et_startDate"
+            android:background="@android:drawable/editbox_background"
+            android:hint="@string/statisticsManage_et_selectDate"
+            android:textSize="@dimen/font_size_default" />
+
+        <Button
+            android:id="@+id/statisticsManageActivity_btn_enter"
+            style="@style/textStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_size_large"
+            android:background="@drawable/statisticsmanageactivity_buttonselector_color"
+            android:text="@string/statisticsManage_btn_details" />
+
+    </LinearLayout>
+
+   
+
+</RelativeLayout>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.soa.note"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="17" />
+    <!-- 读取联系人的权限 -->
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <!-- 调用系统摄像头的权限 -->
+    <uses-permission android:name="android.permission.CAMERA" />
+    <!-- 在SD卡创建与删除文件的权限 -->
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <!-- SD卡写入数据的权限 -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.soa.welcome_activity.WelcomeActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.soa.main_activity.MainActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.soa.add_activity.AddActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.soa.billmanage_activity.BillManageActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.soa.personmanage_activity.PersonManageActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.soa.changedata_activity.ChangeDataActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.soa.welcome_activity.GuideActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.soa.camera_activity.CameraActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.soa.statisticsmanage_activity.StatisticsManageActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.soa.statisticsdetails_activity.StatisticsDetailsActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.soa.barchart_fragmentactivity.BarChartFragment"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.soa.linechart_fragmentactivity.LineChartFragment"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.soa.piechart_fragmentactivity.PieChartFragment"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.soa.system_activity.SystemActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="main_btn_add">Add</string>
+    <string name="main_btn_billmanage">Bill</string>
+    <string name="main_btn_personmanage">People</string>
+    <string name="main_btn_statistics">Statistical</string>
+    
+</resources>

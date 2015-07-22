@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="sort">
+        <item>餐饮</item>
+        <item>娱乐</item>
+        <item>住宿</item>
+        <item>生活</item>
+        <item>服饰</item>
+        <item>数码</item>
+        <item>借贷</item>
+        <item>股票</item>
+        <item>工资</item>
+        <item>情感</item>
+        <item>人事</item>
+        <item>其他</item>
+    </string-array>
+
+    
+    <string-array name="mode">
+        <item>个人</item>
+        <item>AA</item>
+        <item>平均</item>
+        <item>分期</item>
+        <item>透支</item>
+        <item>赊账</item>
+    </string-array>
+    
+    <string-array name="query_mode">
+        <item>全部</item>
+        <item>时间</item>
+        <item>分类</item>
+        <item>方式</item>
+        <item>收支</item>
+        <item>金额</item>
+    </string-array>
+    
+    
+    <array name="person_icon">
+        <item>@drawable/personmanageactivity_image_personicon0</item>
+        <item>@drawable/personmanageactivity_image_personicon1</item>
+        <item>@drawable/personmanageactivity_image_personicon2</item>
+        <item>@drawable/personmanageactivity_image_personicon3</item>
+        <item>@drawable/personmanageactivity_image_personicon4</item>
+        <item>@drawable/personmanageactivity_image_personicon5</item>
+        <item>@drawable/personmanageactivity_image_personicon6</item>
+    </array>
+    
+
+</resources>

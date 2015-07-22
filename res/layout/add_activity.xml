@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/aliceblue" >
+    
+    <LinearLayout
+        android:id="@+id/addActivity_ll_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/add_activity" >
+
+        <Button
+            android:id="@+id/addActivity_btn_back"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="@dimen/margin_size_minimal"
+            android:background="@drawable/addactivity_buttonselector_back" />
+
+        <TextView
+            android:id="@+id/addActivity_tv_title"
+            style="@style/textStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginBottom="@dimen/margin_size_minimal"
+            android:text="@string/add_tv_title"
+            android:textSize="@dimen/font_size_medium" />
+        
+        
+    </LinearLayout>
+
+    
+    
+     <Button
+            android:id="@+id/addActivity_btn_save"
+            style="@style/textStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_margin="1dp"
+            android:background="@drawable/addactivity_buttonselector_color"
+            android:text="@string/add_btn_save" />
+        
+    
+    
+    <TextView
+        android:id="@+id/addActivity_tv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/addActivity_ll_header"
+        android:layout_marginLeft="@dimen/margin_size_default"
+        android:layout_marginTop="@dimen/margin_size_default"
+        android:text="@string/add_tv_name"
+        android:textSize="@dimen/font_size_default" />
+
+    <EditText
+        android:id="@+id/addActivity_et_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/addActivity_tv_name"
+        android:layout_marginLeft="@dimen/margin_size_default"
+        android:layout_toRightOf="@+id/addActivity_tv_name"
+        android:ems="10"
+        android:singleLine="true" >
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/addActivity_tv_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/addActivity_tv_name"
+        android:layout_below="@+id/addActivity_tv_name"
+        android:layout_marginTop="@dimen/margin_size_default"
+        android:text="@string/add_tv_date"
+        android:textSize="@dimen/font_size_default" />
+
+    <TextView
+        android:id="@+id/addActivity_tv_selectDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/addActivity_tv_date"
+        android:layout_marginLeft="@dimen/margin_size_default"
+        android:layout_toRightOf="@+id/addActivity_tv_date"
+        android:drawableRight="@drawable/addactivity_image_date"
+        android:gravity="bottom"
+        android:textSize="@dimen/margin_size_default" >
+    </TextView>
+
+    <TextView
+        android:id="@+id/addActivity_tv_sort"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/addActivity_tv_date"
+        android:layout_below="@+id/addActivity_tv_date"
+        android:layout_marginTop="@dimen/margin_size_default"
+        android:text="@string/add_tv_sort"
+        android:textSize="@dimen/font_size_default" />
+
+    <Spinner
+        android:id="@+id/addActivity_sp_sort"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/addActivity_tv_sort"
+        android:layout_marginLeft="@dimen/margin_size_small"
+        android:layout_toRightOf="@+id/addActivity_tv_sort"
+        android:entries="@array/sort" />
+
+    <TextView
+        android:id="@+id/addActivity_tv_mode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/addActivity_tv_date"
+        android:layout_marginLeft="@dimen/margin_size_default"
+        android:layout_marginTop="@dimen/margin_size_default"
+        android:layout_toRightOf="@+id/addActivity_sp_sort"
+        android:text="@string/add_tv_mode"
+        android:textSize="@dimen/font_size_default" />
+
+    <Spinner
+        android:id="@+id/addActivity_sp_mode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/addActivity_tv_mode"
+        android:layout_marginLeft="@dimen/margin_size_small"
+        android:layout_toRightOf="@+id/addActivity_tv_mode"
+        android:entries="@array/mode" />
+
+    <TextView
+        android:id="@+id/addActivity_tv_money"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/addActivity_tv_sort"
+        android:layout_below="@+id/addActivity_tv_sort"
+        android:layout_marginTop="@dimen/margin_size_default"
+        android:text="@string/add_tv_money"
+        android:textSize="@dimen/font_size_default" />
+
+    <EditText
+        android:id="@+id/addActivity_et_money"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/addActivity_tv_money"
+        android:layout_toRightOf="@+id/addActivity_tv_money"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:singleLine="true" />
+
+    <RadioGroup
+        android:id="@+id/addActivity_rg_payorincome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/addActivity_et_money"
+        android:layout_marginLeft="@dimen/margin_size_small"
+        android:layout_toRightOf="@+id/addActivity_et_money"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:id="@+id/addActivity_rd_pay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="@string/add_rd_pay" />
+
+        <RadioButton
+            android:id="@+id/addActivity_rd_income"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/add_rd_income" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/addActivity_tv_person"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/addActivity_tv_money"
+        android:layout_below="@+id/addActivity_tv_money"
+        android:layout_marginTop="@dimen/margin_size_default"
+        android:text="@string/add_tv_person"
+        android:textSize="@dimen/font_size_default" />
+
+    <TextView
+        android:id="@+id/addActivity_tv_selectPerson"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/addActivity_tv_person"
+        android:layout_marginLeft="@dimen/margin_size_default"
+        android:layout_marginRight="@dimen/margin_size_default"
+        android:layout_toRightOf="@+id/addActivity_tv_person"
+        android:ellipsize="end"
+        android:hint="@string/add_tv_addPerson"
+        android:singleLine="true"
+        android:textSize="@dimen/font_size_default" />
+
+    <TextView
+        android:id="@+id/addActivity_tv_remark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/addActivity_tv_person"
+        android:layout_below="@+id/addActivity_tv_person"
+        android:layout_marginTop="@dimen/margin_size_default"
+        android:text="@string/add_tv_remark"
+        android:textSize="@dimen/font_size_default" >
+    </TextView>
+
+    <EditText
+        android:id="@+id/addActivity_et_remark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/addActivity_et_money"
+        android:layout_alignTop="@+id/addActivity_tv_remark"
+        android:ems="10"
+        android:lines="4" />
+
+    <ImageView
+        android:id="@+id/addActivity_iv_photo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/addActivity_et_money"
+        android:layout_alignTop="@+id/addActivity_tv_remark"
+        android:adjustViewBounds="true"
+        android:maxHeight="100dp"
+        android:maxWidth="200dp"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/addActivity_btn_camera"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/addActivity_tv_remark"
+        android:layout_alignLeft="@id/addActivity_tv_remark"
+        android:background="@drawable/addactivity_buttonselector_camera" />
+
+  
+
+    
+</RelativeLayout>

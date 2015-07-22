@@ -1,0 +1,45 @@
+# view res/layout/activity_guide.xml #generated:7
+-keep class android.support.v4.view.ViewPager { <init>(...); }
+
+# view AndroidManifest.xml #generated:38
+-keep class com.soa.add_activity.AddActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:70
+-keep class com.soa.barchart_fragmentactivity.BarChartFragment { <init>(...); }
+
+# view AndroidManifest.xml #generated:42
+-keep class com.soa.billmanage_activity.BillManageActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:58
+-keep class com.soa.camera_activity.CameraActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:50
+-keep class com.soa.changedata_activity.ChangeDataActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:74
+-keep class com.soa.linechart_fragmentactivity.LineChartFragment { <init>(...); }
+
+# view AndroidManifest.xml #generated:33
+-keep class com.soa.main_activity.MainActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:46
+-keep class com.soa.personmanage_activity.PersonManageActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:78
+-keep class com.soa.piechart_fragmentactivity.PieChartFragment { <init>(...); }
+
+# view AndroidManifest.xml #generated:66
+-keep class com.soa.statisticsdetails_activity.StatisticsDetailsActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:62
+-keep class com.soa.statisticsmanage_activity.StatisticsManageActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:82
+-keep class com.soa.system_activity.SystemActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:54
+-keep class com.soa.welcome_activity.GuideActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:24
+-keep class com.soa.welcome_activity.WelcomeActivity { <init>(...); }
+

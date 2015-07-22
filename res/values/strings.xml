@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">钱都去哪了</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="welcome_loading">Loading....</string>
+    
+    <string name="general_btn_back">返回</string>
+    
+    <string name="guide_btn_enter">开启理财之旅</string>
+    
+    <string name="main_tv_slogan">改善投资环境,扩大招商引资,你投资我支持,你发财我发展,你创业我就业</string>
+    <string name="main_btn_add">添加账单</string>
+    <string name="main_btn_billmanage">账单管理</string>
+    <string name="main_btn_personmanage">人员管理</string>
+    <string name="main_btn_statistics">统计管理</string>
+    <string name="main_btn_system">设置</string>
+    <string name="main_btn_exit">退出</string>
+    
+    <string name="choose_app">选择App</string>
+    <string name="currency_symbol">￥</string>
+    
+    
+    <string name="add_tv_title">添加账单</string>
+    <string name="add_tv_name">*名称</string>
+    <string name="add_tv_date">时间</string>
+    <string name="add_tv_sort">分类</string>
+    <string name="add_tv_mode">方式</string>
+    <string name="add_tv_money">*金额   ￥</string>
+    <string name="add_rd_pay">支出</string>
+    <string name="add_rd_income">收入</string>
+    <string name="add_tv_person">*参与人员</string>
+    <string name="add_tv_addPerson">点击选择参与人员</string>
+    <string name="add_tv_remark">备注</string>
+    <string name="add_btn_save">保存</string>
+    
+    
+    <string name="billManage_tv_title">账单管理</string>
+    <string name="billManage_tv_mode">查询方式</string>
+    <string name="billManage_tv_requirement">选择限定条件</string>
+    
+    
+    <string name="changeData_tv_title">修改账单</string>
+    
+    
+    
+    <string name="personManage_tv_title">人员管理</string>
+    <string name="personManage_btn_add">添加</string>
+    <string name="personManage_btn_new">新建人员</string>
+    <string name="personManage_btn_addContacts">从联系人导入</string>
+    
+    
+    <string name="camera_btn_photograph">拍照</string>
+    
+    
+    <string name="statisticsManage_tv_title">统计管理</string>
+    <string name="statisticsManage_tv_startDate">起始日期</string>
+    <string name="statisticsManage_tv_endtDate">终止日期</string>
+    
+    <string name="statisticsManage_btn_details">统计明细</string>
+    <string name="statisticsDetails_btn_barChart">柱状图</string>
+    <string name="statisticsDetails_btn_lineChart">折线图</string>
+    <string name="statisticsDetails_btn_pieChart">扇形图</string>
+    
+    
+    <string name="statisticsManage_et_selectDate">点击选择日期</string>
+    
+    <string name="system_tv_title">系统设置</string>
+    <string name="system_btn_backupAndRestore">备份与还原</string>
+    <string name="system_btn_help">帮助信息</string>
+    <string name="system_btn_feedback">意见反馈</string>
+    <string name="system_btn_about">关于软件</string>
+    <string name="system_btn_backupToSDCard">备份数据到SD卡</string>
+    <string name="system_btn_restoreFromSDCard">从SD卡还原数据</string>
+    <string name="system_btn_email">发送邮件</string>
+    <string name="system_btn_openHomepage">打开主页</string>
+    
+
+</resources>

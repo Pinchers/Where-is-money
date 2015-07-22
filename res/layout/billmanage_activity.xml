@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/aliceblue" >
+
+    <LinearLayout
+        android:id="@+id/billManageActivity_ll_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/billManage_activity" >
+
+        <Button
+            android:id="@+id/billManageActivity_btn_back"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_margin="@dimen/margin_size_minimal"
+            android:background="@drawable/billmanageactivity_buttonselector_back" />
+
+        <TextView
+            android:id="@+id/billManageActivity_tv_title"
+            style="@style/textStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginBottom="@dimen/margin_size_minimal"
+            android:text="@string/billManage_tv_title"
+            android:textSize="@dimen/font_size_medium" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/billManageActivity_tv_queryMode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/billManageActivity_ll_header"
+        android:layout_marginLeft="@dimen/margin_size_default"
+        android:layout_marginTop="@dimen/margin_size_default"
+        android:text="@string/billManage_tv_mode"
+        android:textSize="@dimen/font_size_default" />
+
+    <Spinner
+        android:id="@+id/billManageActivity_sp_mode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/billManageActivity_tv_queryMode"
+        android:layout_marginLeft="@dimen/margin_size_small"
+        android:layout_toRightOf="@+id/billManageActivity_tv_queryMode"
+        android:entries="@array/query_mode" />
+
+    <TextView
+        android:id="@+id/billManageActivity_tv_queryRequirement"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/billManageActivity_tv_queryMode"
+        android:layout_below="@+id/billManageActivity_tv_queryMode"
+        android:layout_marginTop="@dimen/margin_size_default"
+        android:text="@string/billManage_tv_requirement"
+        android:textSize="@dimen/font_size_default" />
+
+    <Spinner
+        android:id="@+id/billManageActivity_sp_condition"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/billManageActivity_tv_queryRequirement"
+        android:layout_marginLeft="@dimen/margin_size_small"
+        android:layout_toRightOf="@+id/billManageActivity_tv_queryRequirement" />
+
+    <ListView
+        android:id="@+id/billManageActivity_lv_display"
+        android:layout_width="match_parent"
+        android:layout_marginTop="@dimen/margin_size_default"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/billManageActivity_tv_queryRequirement"
+        android:fadeScrollbars="true"
+        android:fastScrollEnabled="true" />
+
+
+
+</RelativeLayout>
